@@ -1,141 +1,28 @@
-<testsuites name="jest tests" tests="6" failures="3" time="2.012">
-  <testsuite name="Editar un pokemon" errors="0" failures="3" skipped="0" timestamp="2022-08-11T16:06:45" time="1.476" tests="3">
-    <testcase classname="Editar un pokemon Elementos existen" name="Editar un pokemon Elementos existen" time="0.053">
-      <failure>TypeError: Cannot read properties of undefined (reading &apos;name&apos;)
-    at EditPokemon (/Users/juanpablotoro/Documents/pokemonsApp/src/components/forms/EditPokemon.tsx:19:26)
-    at renderWithHooks (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
-    at mountIndeterminateComponent (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
-    at beginWork (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
-    at HTMLUnknownElement.callCallback (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:188:14)
-    at HTMLUnknownElement.callTheUserObjectsOperation (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
-    at innerInvokeEventListeners (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
-    at invokeEventListeners (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
-    at HTMLUnknownElementImpl._dispatch (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
-    at HTMLUnknownElementImpl.dispatchEvent (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)
-    at HTMLUnknownElement.dispatchEvent (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)
-    at Object.invokeGuardedCallbackDev (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:237:16)
-    at invokeGuardedCallback (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:292:31)
-    at beginWork$1 (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
-    at performUnitOfWork (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
-    at workLoopSync (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
-    at performSyncWorkOnRoot (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
-    at scheduleUpdateOnFiber (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
-    at updateContainer (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
-    at /Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:24758:7
-    at unbatchedUpdates (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
-    at legacyRenderSubtreeIntoContainer (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
-    at Object.render (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
-    at /Users/juanpablotoro/Documents/pokemonsApp/node_modules/@testing-library/react/dist/pure.js:101:25
-    at batchedUpdates$1 (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
-    at act (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
-    at render (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/@testing-library/react/dist/pure.js:97:26)
-    at Object.&lt;anonymous&gt; (/Users/juanpablotoro/Documents/pokemonsApp/src/__tests__/EditPokemon.test.tsx:6:3)
-    at Promise.then.completed (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/utils.js:276:28)
-    at new Promise (&lt;anonymous&gt;)
-    at callAsyncCircusFn (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/utils.js:216:10)
-    at _callCircusHook (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/run.js:175:40)
-    at _runTest (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/run.js:142:5)
-    at _runTestsForDescribeBlock (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/run.js:63:9)
-    at _runTestsForDescribeBlock (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/run.js:57:9)
-    at run (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/run.js:25:3)
-    at runAndTransformResultsToJestFormat (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
-    at jestAdapter (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
-    at runTestInternal (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-runner/build/runTest.js:380:16)
-    at runTest (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-runner/build/runTest.js:472:34)</failure>
-    </testcase>
-    <testcase classname="Editar un pokemon should have a cancel button to cancel the edit" name="Editar un pokemon should have a cancel button to cancel the edit" time="0.005">
-      <failure>TypeError: Cannot read properties of undefined (reading &apos;name&apos;)
-    at EditPokemon (/Users/juanpablotoro/Documents/pokemonsApp/src/components/forms/EditPokemon.tsx:19:26)
-    at renderWithHooks (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
-    at mountIndeterminateComponent (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
-    at beginWork (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
-    at HTMLUnknownElement.callCallback (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:188:14)
-    at HTMLUnknownElement.callTheUserObjectsOperation (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
-    at innerInvokeEventListeners (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
-    at invokeEventListeners (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
-    at HTMLUnknownElementImpl._dispatch (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
-    at HTMLUnknownElementImpl.dispatchEvent (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)
-    at HTMLUnknownElement.dispatchEvent (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)
-    at Object.invokeGuardedCallbackDev (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:237:16)
-    at invokeGuardedCallback (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:292:31)
-    at beginWork$1 (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
-    at performUnitOfWork (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
-    at workLoopSync (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
-    at performSyncWorkOnRoot (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
-    at scheduleUpdateOnFiber (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
-    at updateContainer (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
-    at /Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:24758:7
-    at unbatchedUpdates (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
-    at legacyRenderSubtreeIntoContainer (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
-    at Object.render (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
-    at /Users/juanpablotoro/Documents/pokemonsApp/node_modules/@testing-library/react/dist/pure.js:101:25
-    at batchedUpdates$1 (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
-    at act (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
-    at render (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/@testing-library/react/dist/pure.js:97:26)
-    at Object.&lt;anonymous&gt; (/Users/juanpablotoro/Documents/pokemonsApp/src/__tests__/EditPokemon.test.tsx:6:3)
-    at Promise.then.completed (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/utils.js:276:28)
-    at new Promise (&lt;anonymous&gt;)
-    at callAsyncCircusFn (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/utils.js:216:10)
-    at _callCircusHook (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/run.js:175:40)
-    at _runTest (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/run.js:142:5)
-    at _runTestsForDescribeBlock (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/run.js:63:9)
-    at _runTestsForDescribeBlock (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/run.js:57:9)
-    at run (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/run.js:25:3)
-    at runAndTransformResultsToJestFormat (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
-    at jestAdapter (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
-    at runTestInternal (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-runner/build/runTest.js:380:16)
-    at runTest (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-runner/build/runTest.js:472:34)</failure>
-    </testcase>
-    <testcase classname="Editar un pokemon should have a button to save changes in current pokemon" name="Editar un pokemon should have a button to save changes in current pokemon" time="0.004">
-      <failure>TypeError: Cannot read properties of undefined (reading &apos;name&apos;)
-    at EditPokemon (/Users/juanpablotoro/Documents/pokemonsApp/src/components/forms/EditPokemon.tsx:19:26)
-    at renderWithHooks (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
-    at mountIndeterminateComponent (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
-    at beginWork (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
-    at HTMLUnknownElement.callCallback (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:188:14)
-    at HTMLUnknownElement.callTheUserObjectsOperation (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
-    at innerInvokeEventListeners (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
-    at invokeEventListeners (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
-    at HTMLUnknownElementImpl._dispatch (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
-    at HTMLUnknownElementImpl.dispatchEvent (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)
-    at HTMLUnknownElement.dispatchEvent (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)
-    at Object.invokeGuardedCallbackDev (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:237:16)
-    at invokeGuardedCallback (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:292:31)
-    at beginWork$1 (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
-    at performUnitOfWork (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
-    at workLoopSync (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
-    at performSyncWorkOnRoot (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
-    at scheduleUpdateOnFiber (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
-    at updateContainer (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
-    at /Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:24758:7
-    at unbatchedUpdates (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
-    at legacyRenderSubtreeIntoContainer (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
-    at Object.render (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
-    at /Users/juanpablotoro/Documents/pokemonsApp/node_modules/@testing-library/react/dist/pure.js:101:25
-    at batchedUpdates$1 (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
-    at act (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
-    at render (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/@testing-library/react/dist/pure.js:97:26)
-    at Object.&lt;anonymous&gt; (/Users/juanpablotoro/Documents/pokemonsApp/src/__tests__/EditPokemon.test.tsx:6:3)
-    at Promise.then.completed (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/utils.js:276:28)
-    at new Promise (&lt;anonymous&gt;)
-    at callAsyncCircusFn (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/utils.js:216:10)
-    at _callCircusHook (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/run.js:175:40)
-    at _runTest (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/run.js:142:5)
-    at _runTestsForDescribeBlock (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/run.js:63:9)
-    at _runTestsForDescribeBlock (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/run.js:57:9)
-    at run (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/run.js:25:3)
-    at runAndTransformResultsToJestFormat (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
-    at jestAdapter (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
-    at runTestInternal (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-runner/build/runTest.js:380:16)
-    at runTest (/Users/juanpablotoro/Documents/pokemonsApp/node_modules/jest-runner/build/runTest.js:472:34)</failure>
+<testsuites name="jest tests" tests="9" failures="0" time="6.430999999999999">
+  <testsuite name="Search bar" errors="0" failures="0" skipped="0" timestamp="2022-08-11T17:24:38" time="1.513" tests="1">
+    <testcase classname="Search bar Elementos existen" name="Search bar Elementos existen" time="0.057">
     </testcase>
   </testsuite>
-  <testsuite name="Crear un pokemon" errors="0" failures="0" skipped="0" timestamp="2022-08-11T16:06:47" time="0.536" tests="3">
-    <testcase classname="Crear un pokemon Elementos existen" name="Crear un pokemon Elementos existen" time="0.034">
+  <testsuite name="Tabla de pokemones" errors="0" failures="0" skipped="0" timestamp="2022-08-11T17:24:38" time="1.635" tests="2">
+    <testcase classname="Tabla de pokemones Elementos existen" name="Tabla de pokemones Elementos existen" time="0.036">
     </testcase>
-    <testcase classname="Crear un pokemon should have a cancel button to cancel the creation" name="Crear un pokemon should have a cancel button to cancel the creation" time="0.082">
+    <testcase classname="Tabla de pokemones should have a new button to create a new pokemon" name="Tabla de pokemones should have a new button to create a new pokemon" time="0.052">
     </testcase>
-    <testcase classname="Crear un pokemon should have a button to Create a pokemon" name="Crear un pokemon should have a button to Create a pokemon" time="0.04">
+  </testsuite>
+  <testsuite name="Editar un pokemon" errors="0" failures="0" skipped="0" timestamp="2022-08-11T17:24:38" time="1.641" tests="3">
+    <testcase classname="Editar un pokemon Elementos existen" name="Editar un pokemon Elementos existen" time="0.034">
+    </testcase>
+    <testcase classname="Editar un pokemon should have a cancel button to cancel the edit" name="Editar un pokemon should have a cancel button to cancel the edit" time="0.114">
+    </testcase>
+    <testcase classname="Editar un pokemon should have a button to save changes in current pokemon" name="Editar un pokemon should have a button to save changes in current pokemon" time="0.024">
+    </testcase>
+  </testsuite>
+  <testsuite name="Crear un pokemon" errors="0" failures="0" skipped="0" timestamp="2022-08-11T17:24:38" time="1.642" tests="3">
+    <testcase classname="Crear un pokemon Elementos existen" name="Crear un pokemon Elementos existen" time="0.029">
+    </testcase>
+    <testcase classname="Crear un pokemon should have a cancel button to cancel the creation" name="Crear un pokemon should have a cancel button to cancel the creation" time="0.085">
+    </testcase>
+    <testcase classname="Crear un pokemon should have a button to Create a pokemon" name="Crear un pokemon should have a button to Create a pokemon" time="0.033">
     </testcase>
   </testsuite>
 </testsuites>
