@@ -1,0 +1,53 @@
+.create_title {
+  display: flex;
+  justify-content: center;
+  font-weight: lighter;
+}
+
+.container_create {
+  margin-top: 3rem;
+  border: 1px solid grey;
+  height: 24rem;
+  width: 100%;
+}
+
+.buttons_container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #7e57c2;
+  color: whitesmoke;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 8rem;
+}
+
+input[type="range"] {
+  margin: 10px;
+  accent-color: #7e57c2;
+  width: 24rem;
+}
+
+input[type="text"] {
+  margin: 20px;
+  width: 24rem;
+  height: 50px;
+  display: block;
+  justify-content: center;
+}
+
+label {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  color: black;
+}
+
+.container_form {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  margin: 2rem;
+}
